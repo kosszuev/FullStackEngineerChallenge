@@ -1,0 +1,26 @@
+{
+  "name": "paypay-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "format": "prettier --write '**/*.{js,vue,css,md}'"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "firebase": "^8.6.1",
+    "uuidv4": "^6.2.8",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.12.0",
+    "prettier": "2.3.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

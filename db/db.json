@@ -1,0 +1,172 @@
+{
+  "employees": [
+    {
+      "id": "731e858f-34d5-43d3-9af1-3c64f5184989",
+      "firstName": "Scott",
+      "lastName": "Brown",
+      "position": "Director",
+      "currentRequests": [],
+      "finishedRequests": [],
+      "filePath": "images/employees/avatar/731e858f-34d5-43d3-9af1-3c64f5184989",
+      "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/zaz-vue.appspot.com/o/images%2Femployees%2Favatar%2F731e858f-34d5-43d3-9af1-3c64f5184989?alt=media&token=baaab311-9ed6-4f18-bb38-0898e4b072c2"
+    },
+    {
+      "id": "d7f66f29-7ddf-4d97-94f9-882f36c7f3d1",
+      "firstName": "Jassy",
+      "lastName": "Lee",
+      "position": "UI/UX",
+      "currentRequests": [],
+      "finishedRequests": [],
+      "filePath": "images/employees/avatar/d7f66f29-7ddf-4d97-94f9-882f36c7f3d1",
+      "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/zaz-vue.appspot.com/o/images%2Femployees%2Favatar%2Fd7f66f29-7ddf-4d97-94f9-882f36c7f3d1?alt=media&token=842039ae-34ab-4257-b8c1-789f99388462"
+    },
+    {
+      "id": "cf545502-f731-45bd-85d1-f8bcc6d5887d",
+      "firstName": "Batty ",
+      "lastName": "Jay",
+      "position": "Customer service",
+      "currentRequests": [],
+      "finishedRequests": [],
+      "filePath": "images/employees/avatar/cf545502-f731-45bd-85d1-f8bcc6d5887d",
+      "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/zaz-vue.appspot.com/o/images%2Femployees%2Favatar%2Fcf545502-f731-45bd-85d1-f8bcc6d5887d?alt=media&token=c207053b-ca90-4324-883b-4f5a0bb598fe"
+    },
+    {
+      "id": "d541035c-a76d-4b94-9e02-1e7eff0b3de1",
+      "firstName": "Brian",
+      "lastName": "Zafranski",
+      "position": "Sales",
+      "currentRequests": [],
+      "finishedRequests": [],
+      "filePath": "images/employees/avatar/d541035c-a76d-4b94-9e02-1e7eff0b3de1",
+      "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/zaz-vue.appspot.com/o/images%2Femployees%2Favatar%2Fd541035c-a76d-4b94-9e02-1e7eff0b3de1?alt=media&token=aecc3745-9b24-47d8-8797-012ea66e2b82"
+    },
+    {
+      "id": "96931513-16c1-49b7-b6cc-c721afe850e9",
+      "firstName": "Jaster",
+      "lastName": "White",
+      "position": "Consultant",
+      "currentRequests": [],
+      "finishedRequests": [],
+      "filePath": "images/employees/avatar/96931513-16c1-49b7-b6cc-c721afe850e9",
+      "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/zaz-vue.appspot.com/o/images%2Femployees%2Favatar%2F96931513-16c1-49b7-b6cc-c721afe850e9?alt=media&token=c9923a2e-91da-4a90-8750-e9fdbdb55c46"
+    }
+  ],
+  "requests": [
+    {
+      "id": "eab12f6a-57a4-49f5-ba5c-78260a9093da",
+      "created_at": 1621728947910,
+      "title": "Review Lee's commit",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "reviewersIds": [
+        "731e858f-34d5-43d3-9af1-3c64f5184989",
+        "cf545502-f731-45bd-85d1-f8bcc6d5887d"
+      ],
+      "comments": [
+        {
+          "id": "834e8db7-7be9-4dc2-978f-9adee92fab15",
+          "reviewerId": "731e858f-34d5-43d3-9af1-3c64f5184989",
+          "text": "Nice one",
+          "created_at": 1621730913021
+        },
+        {
+          "id": "632a3517-117f-45ce-bbef-eb15d9ae1d2a",
+          "reviewerId": "731e858f-34d5-43d3-9af1-3c64f5184989",
+          "text": "Very good job",
+          "created_at": 1621730938999
+        },
+        {
+          "id": "17db44e6-00ad-4abe-8b76-c194af4e1d17",
+          "reviewerId": "cf545502-f731-45bd-85d1-f8bcc6d5887d",
+          "text": "No problem",
+          "created_at": 1621731100996
+        },
+        {
+          "id": "8dd40f52-90d2-47ed-b67a-ff2ece4a21d6",
+          "reviewerId": "cf545502-f731-45bd-85d1-f8bcc6d5887d",
+          "text": "Ok",
+          "created_at": 1621731224908
+        },
+        {
+          "id": "8fd30271-a03a-4d70-9e3a-8bf8583d8e1c",
+          "reviewerId": "731e858f-34d5-43d3-9af1-3c64f5184989",
+          "text": "Hahaha",
+          "created_at": 1621731294027
+        }
+      ]
+    },
+    {
+      "id": "c42209b8-a487-467c-8c0f-2edddd6a3b6b",
+      "created_at": 1621732511818,
+      "title": "Javascript task review",
+      "description": "This commit need a review",
+      "reviewersIds": [
+        "731e858f-34d5-43d3-9af1-3c64f5184989",
+        "d7f66f29-7ddf-4d97-94f9-882f36c7f3d1",
+        "cf545502-f731-45bd-85d1-f8bcc6d5887d"
+      ],
+      "comments": [
+        {
+          "id": "c678d1a6-3d54-4006-981c-7f24ff86c173",
+          "reviewerId": "d7f66f29-7ddf-4d97-94f9-882f36c7f3d1",
+          "text": "No issues detected",
+          "created_at": 1621732617515
+        },
+        {
+          "id": "1ece6383-7f3f-4933-947d-9a878b748d93",
+          "reviewerId": "731e858f-34d5-43d3-9af1-3c64f5184989",
+          "text": "Good one",
+          "created_at": 1621732720155
+        },
+        {
+          "id": "6296ec5f-733f-487b-8ecb-e7523372424c",
+          "reviewerId": "731e858f-34d5-43d3-9af1-3c64f5184989",
+          "text": "Nice",
+          "created_at": 1621743481155
+        }
+      ]
+    },
+    {
+      "id": "7b3f4681-daca-4e68-a791-0e10f55dfb99",
+      "created_at": 1621763361100,
+      "title": "Cart module review",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "reviewersIds": [
+        "d7f66f29-7ddf-4d97-94f9-882f36c7f3d1",
+        "d541035c-a76d-4b94-9e02-1e7eff0b3de1"
+      ],
+      "comments": [
+        {
+          "id": "bb71d882-e6d8-4596-8af3-f6d03dafdc2d",
+          "reviewerId": "d7f66f29-7ddf-4d97-94f9-882f36c7f3d1",
+          "text": "It is a long established fact that a reader will be distracted by the readable content.",
+          "created_at": 1621763577034
+        },
+        {
+          "id": "e3156659-2b26-4dcc-a198-5e8d19ea40b2",
+          "reviewerId": "d541035c-a76d-4b94-9e02-1e7eff0b3de1",
+          "text": " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "created_at": 1621763720626
+        },
+        {
+          "id": "4211cbca-bf63-440f-9e69-968f6a90643b",
+          "reviewerId": "d541035c-a76d-4b94-9e02-1e7eff0b3de1",
+          "text": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+          "created_at": 1621769340888
+        }
+      ]
+    },
+    {
+      "id": "2a6314b7-4b70-42fc-ba61-6c60724865da",
+      "created_at": 1621765662114,
+      "title": "Review of a new system",
+      "description": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+      "reviewersIds": [
+        "731e858f-34d5-43d3-9af1-3c64f5184989",
+        "d7f66f29-7ddf-4d97-94f9-882f36c7f3d1",
+        "96931513-16c1-49b7-b6cc-c721afe850e9",
+        "d541035c-a76d-4b94-9e02-1e7eff0b3de1"
+      ],
+      "comments": []
+    }
+  ]
+}
